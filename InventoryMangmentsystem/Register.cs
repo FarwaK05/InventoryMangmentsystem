@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace InventoryMangmentsystem
 {
-    public partial class registration : Form
+    public partial class Register : Form
     {
-        public registration()
+        public Register()
         {
             InitializeComponent();
-        }
-
-        private void registration_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

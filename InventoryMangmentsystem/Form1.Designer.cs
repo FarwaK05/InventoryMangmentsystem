@@ -34,11 +34,11 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.register_label = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.noaccount_label = new System.Windows.Forms.Label();
             this.login_button = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.passwordtextBox1 = new System.Windows.Forms.TextBox();
+            this.usertextBox1 = new System.Windows.Forms.TextBox();
+            this.login_accountlabel1 = new System.Windows.Forms.Label();
             this.cross_button = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -55,11 +55,11 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.register_label);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.noaccount_label);
             this.panel1.Controls.Add(this.login_button);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.passwordtextBox1);
+            this.panel1.Controls.Add(this.usertextBox1);
+            this.panel1.Controls.Add(this.login_accountlabel1);
             this.panel1.Location = new System.Drawing.Point(117, 37);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
@@ -120,15 +120,15 @@
             this.register_label.Text = "Register Here";
             this.register_label.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label2
+            // noaccount_label
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(69, 322);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 20);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Don\'t Have an Account?";
+            this.noaccount_label.AutoSize = true;
+            this.noaccount_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noaccount_label.Location = new System.Drawing.Point(69, 322);
+            this.noaccount_label.Name = "noaccount_label";
+            this.noaccount_label.Size = new System.Drawing.Size(191, 20);
+            this.noaccount_label.TabIndex = 4;
+            this.noaccount_label.Text = "Don\'t Have an Account?";
             // 
             // login_button
             // 
@@ -144,34 +144,34 @@
             this.login_button.Text = "Login";
             this.login_button.UseVisualStyleBackColor = false;
             // 
-            // textBox2
+            // passwordtextBox1
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(124, 203);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(253, 30);
-            this.textBox2.TabIndex = 2;
+            this.passwordtextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passwordtextBox1.Location = new System.Drawing.Point(124, 203);
+            this.passwordtextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.passwordtextBox1.Name = "passwordtextBox1";
+            this.passwordtextBox1.PasswordChar = '*';
+            this.passwordtextBox1.Size = new System.Drawing.Size(253, 30);
+            this.passwordtextBox1.TabIndex = 2;
             // 
-            // textBox1
+            // usertextBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(124, 148);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(253, 30);
-            this.textBox1.TabIndex = 1;
+            this.usertextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usertextBox1.Location = new System.Drawing.Point(124, 148);
+            this.usertextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.usertextBox1.Name = "usertextBox1";
+            this.usertextBox1.Size = new System.Drawing.Size(253, 30);
+            this.usertextBox1.TabIndex = 1;
             // 
-            // label1
+            // login_accountlabel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(159, 108);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Login Account";
+            this.login_accountlabel1.AutoSize = true;
+            this.login_accountlabel1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_accountlabel1.Location = new System.Drawing.Point(159, 108);
+            this.login_accountlabel1.Name = "login_accountlabel1";
+            this.login_accountlabel1.Size = new System.Drawing.Size(150, 23);
+            this.login_accountlabel1.TabIndex = 0;
+            this.login_accountlabel1.Text = "Login Account";
             // 
             // cross_button
             // 
@@ -215,11 +215,11 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button cross_button;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox passwordtextBox1;
+        private System.Windows.Forms.TextBox usertextBox1;
+        private System.Windows.Forms.Label login_accountlabel1;
         private System.Windows.Forms.Button login_button;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label noaccount_label;
         private System.Windows.Forms.Label register_label;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
