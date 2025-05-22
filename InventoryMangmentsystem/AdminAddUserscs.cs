@@ -224,5 +224,10 @@ namespace InventoryMangmentsystem
                 }
             }
         }
+
+        private void AdminAddUserscs_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

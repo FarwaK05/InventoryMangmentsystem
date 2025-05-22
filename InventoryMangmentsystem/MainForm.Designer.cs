@@ -42,8 +42,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.adminDashboard1 = new InventoryMangmentsystem.AdminDashboard();
+            this.adminAddProducts1 = new InventoryMangmentsystem.AdminAddProducts();
+            this.adminAddCategories1 = new InventoryMangmentsystem.AdminAddCategories();
             this.adminAddUserscs1 = new InventoryMangmentsystem.AdminAddUserscs();
+            this.adminDashboard1 = new InventoryMangmentsystem.AdminDashboard();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -234,6 +236,27 @@
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
+            // adminAddProducts1
+            // 
+            this.adminAddProducts1.Location = new System.Drawing.Point(192, 52);
+            this.adminAddProducts1.Name = "adminAddProducts1";
+            this.adminAddProducts1.Size = new System.Drawing.Size(1107, 756);
+            this.adminAddProducts1.TabIndex = 5;
+            // 
+            // adminAddCategories1
+            // 
+            this.adminAddCategories1.Location = new System.Drawing.Point(195, 52);
+            this.adminAddCategories1.Name = "adminAddCategories1";
+            this.adminAddCategories1.Size = new System.Drawing.Size(1107, 699);
+            this.adminAddCategories1.TabIndex = 4;
+            // 
+            // adminAddUserscs1
+            // 
+            this.adminAddUserscs1.Location = new System.Drawing.Point(199, 77);
+            this.adminAddUserscs1.Name = "adminAddUserscs1";
+            this.adminAddUserscs1.Size = new System.Drawing.Size(1103, 647);
+            this.adminAddUserscs1.TabIndex = 3;
+            // 
             // adminDashboard1
             // 
             this.adminDashboard1.Location = new System.Drawing.Point(204, 95);
@@ -241,18 +264,13 @@
             this.adminDashboard1.Size = new System.Drawing.Size(1089, 647);
             this.adminDashboard1.TabIndex = 2;
             // 
-            // adminAddUserscs1
-            // 
-            this.adminAddUserscs1.Location = new System.Drawing.Point(199, 86);
-            this.adminAddUserscs1.Name = "adminAddUserscs1";
-            this.adminAddUserscs1.Size = new System.Drawing.Size(1103, 647);
-            this.adminAddUserscs1.TabIndex = 3;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1302, 754);
+            this.Controls.Add(this.adminAddProducts1);
+            this.Controls.Add(this.adminAddCategories1);
             this.Controls.Add(this.adminAddUserscs1);
             this.Controls.Add(this.adminDashboard1);
             this.Controls.Add(this.panel2);
@@ -286,5 +304,7 @@
         private System.Windows.Forms.Button button6;
         private AdminDashboard adminDashboard1;
         private AdminAddUserscs adminAddUserscs1;
+        private AdminAddCategories adminAddCategories1;
+        private AdminAddProducts adminAddProducts1;
     }
 }
