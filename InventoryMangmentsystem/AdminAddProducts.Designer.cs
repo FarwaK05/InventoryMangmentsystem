@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Prode = new System.Windows.Forms.Label();
@@ -65,38 +65,38 @@
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.Prode);
-            this.panel1.Location = new System.Drawing.Point(18, 29);
+            this.panel1.Location = new System.Drawing.Point(0, 26);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1070, 394);
+            this.panel1.Size = new System.Drawing.Size(1085, 394);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(113)))), ((int)(((byte)(73)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(113)))), ((int)(((byte)(73)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(113)))), ((int)(((byte)(73)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(113)))), ((int)(((byte)(73)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.Location = new System.Drawing.Point(18, 59);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1032, 316);
+            this.dataGridView1.Size = new System.Drawing.Size(1010, 306);
             this.dataGridView1.TabIndex = 3;
             // 
             // Prode
@@ -130,9 +130,9 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.addProducts_prodID);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(18, 438);
+            this.panel2.Location = new System.Drawing.Point(0, 438);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1070, 304);
+            this.panel2.Size = new System.Drawing.Size(1085, 274);
             this.panel2.TabIndex = 1;
             // 
             // addProducts_addBtn
@@ -144,7 +144,7 @@
             this.addProducts_addBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addProducts_addBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProducts_addBtn.ForeColor = System.Drawing.Color.White;
-            this.addProducts_addBtn.Location = new System.Drawing.Point(48, 233);
+            this.addProducts_addBtn.Location = new System.Drawing.Point(45, 212);
             this.addProducts_addBtn.Name = "addProducts_addBtn";
             this.addProducts_addBtn.Size = new System.Drawing.Size(157, 33);
             this.addProducts_addBtn.TabIndex = 17;
@@ -161,7 +161,7 @@
             this.addProducts_updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addProducts_updateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProducts_updateBtn.ForeColor = System.Drawing.Color.White;
-            this.addProducts_updateBtn.Location = new System.Drawing.Point(250, 233);
+            this.addProducts_updateBtn.Location = new System.Drawing.Point(236, 212);
             this.addProducts_updateBtn.Name = "addProducts_updateBtn";
             this.addProducts_updateBtn.Size = new System.Drawing.Size(157, 33);
             this.addProducts_updateBtn.TabIndex = 16;
@@ -178,7 +178,7 @@
             this.addProducts_removeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addProducts_removeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProducts_removeBtn.ForeColor = System.Drawing.Color.White;
-            this.addProducts_removeBtn.Location = new System.Drawing.Point(448, 233);
+            this.addProducts_removeBtn.Location = new System.Drawing.Point(432, 212);
             this.addProducts_removeBtn.Name = "addProducts_removeBtn";
             this.addProducts_removeBtn.Size = new System.Drawing.Size(157, 33);
             this.addProducts_removeBtn.TabIndex = 15;
@@ -194,7 +194,7 @@
             this.addProducts_clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addProducts_clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addProducts_clearBtn.ForeColor = System.Drawing.Color.White;
-            this.addProducts_clearBtn.Location = new System.Drawing.Point(649, 233);
+            this.addProducts_clearBtn.Location = new System.Drawing.Point(644, 212);
             this.addProducts_clearBtn.Name = "addProducts_clearBtn";
             this.addProducts_clearBtn.Size = new System.Drawing.Size(157, 33);
             this.addProducts_clearBtn.TabIndex = 14;
@@ -357,7 +357,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "AdminAddProducts";
-            this.Size = new System.Drawing.Size(1107, 756);
+            this.Size = new System.Drawing.Size(1085, 712);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

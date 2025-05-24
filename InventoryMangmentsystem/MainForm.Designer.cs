@@ -238,14 +238,15 @@
             // 
             // adminAddProducts1
             // 
-            this.adminAddProducts1.Location = new System.Drawing.Point(192, 52);
+            this.adminAddProducts1.Location = new System.Drawing.Point(178, 48);
             this.adminAddProducts1.Name = "adminAddProducts1";
-            this.adminAddProducts1.Size = new System.Drawing.Size(1107, 756);
+            this.adminAddProducts1.Size = new System.Drawing.Size(1124, 706);
             this.adminAddProducts1.TabIndex = 5;
+            this.adminAddProducts1.Load += new System.EventHandler(this.adminAddProducts1_Load);
             // 
             // adminAddCategories1
             // 
-            this.adminAddCategories1.Location = new System.Drawing.Point(195, 52);
+            this.adminAddCategories1.Location = new System.Drawing.Point(178, 55);
             this.adminAddCategories1.Name = "adminAddCategories1";
             this.adminAddCategories1.Size = new System.Drawing.Size(1107, 699);
             this.adminAddCategories1.TabIndex = 4;

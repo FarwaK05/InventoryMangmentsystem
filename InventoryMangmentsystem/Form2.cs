@@ -66,7 +66,7 @@ namespace InventoryMangmentsystem
                             }
                             else
                             {
-                                string insertData = "INSERT INTO users (id,username, password, role, status, date) VALUES (@id,@name, @password, @role, @status, @date)";
+                                string insertData = "INSERT INTO users (username, password, role, status, date) VALUES (@name, @password, @role, @status, @date)";
 
 
                                 using (SqlCommand insertD = new SqlCommand(insertData, connect))
